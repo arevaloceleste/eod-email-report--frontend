@@ -1,0 +1,398 @@
+body {
+	background: #E5E5E5;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+.accordion-body {
+	padding: 0px;
+}
+
+.accordion-button {
+	padding: 15px;
+	padding-left: 0.25rem;
+}
+
+.accordion-button::after {
+	display: none;
+}
+
+.accordion-button:not(.collapsed) {
+	background-color: white;
+	color: #333333;
+}
+
+.accordion-item {
+	border: none;
+}
+
+.add-project-button {
+	background-color: #5893CE;
+	border: none;
+	border-radius: 25px;
+	color: white;
+}
+
+.add-user-button {
+	background-color: #5893CE;
+	border-color: #5893CE;
+	border-radius: 25px;
+}
+
+.badge .rounded-pill {
+	margin: 5px;
+}
+
+.bi-bi-check2 {
+	color: #A1DC83;
+}
+
+.bi-exclamation-triangle {
+	color: #F58295;
+}
+
+.btn-mail-send {
+    color: #69BD45;
+}
+
+.btn-mail-sent {
+    color: #999999;
+}
+
+.btn-outline-light {
+	border: none;
+	color: #69BD45;
+}
+
+.btn-outline-light {
+	border: none;
+	color: #69BD45;
+}
+
+.btn-outline-primary {
+    border-color: transparent; 
+    display: flex;
+    font-family: "Titillium Web";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: bold;
+    justify-content: flex-end;
+    line-height: 22px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: right;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.btn-outline-primary:hover {
+    background-color: transparent;
+    border-color: transparent;
+    color: #5893CE;
+}
+
+.collapsed .material-icons {
+	transform: rotate(180deg);
+}
+
+.container {
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+.details {
+	width: -webkit-fill-available;
+}
+
+.details td {
+	font-weight: 400;
+}
+
+.details td, th {
+	font-family: Titillium Web;
+	padding: 20px;
+	text-align: left;
+}
+
+.details th {
+	font-weight: 800;
+}
+
+.details tr {
+	border-bottom: 1px solid #EEEEEE;
+}
+
+.dev {
+	padding-left: initial;
+	width: 50%;
+}
+
+.dev-pill {
+	color: black;
+	display: inline-block;
+    margin-left: 5px;
+}
+
+.edit-button { 
+	display: contents;
+}
+
+#emailPill {
+	background-color: #F5F5F5;
+	border-color: #F5F5F5;
+	margin-bottom: 3%;
+}
+
+.form-control {
+	background-color: #F5F5F5;
+	border-color: #F5F5F5;
+}
+
+.green {
+	border: 1px solid #A1DC83;
+	color: #A1DC83;
+}
+
+.icon-exclamation {
+    color: #F58295;
+    margin-left: auto;
+    margin-right: -5%;
+}
+
+.input-status {
+    background: #F5F5F5;
+    border-color: transparent;
+    border-radius: 4px;
+    margin-right: auto;
+    width: 100%;
+	height: 3rem;
+}
+
+li.nav-item {
+	position: relative;
+}
+
+li.nav-item:hover {
+	border: none;
+}
+
+.material-icons {
+	background-color: #EEEEEE;
+	border-radius: 25px;
+	transition: .3s transform ease-in-out;
+}
+
+.modal-body {
+	background-color: #F5F5F5;
+	margin-left: 1rem;
+	margin-right: 1rem;
+}
+
+.modal-content {
+	height: auto;
+	width: 600px;
+}
+
+.modal-footer {
+	border-top: 0rem;
+	padding-bottom: 5%;
+}
+
+.modal-footer button {
+	border-radius: 25px;
+}
+
+.modal-header {
+	border-bottom: 0rem;
+	display: block;
+	padding-bottom: 0%;
+	padding-top: 5%;
+}
+
+.modal-inner-body {
+	margin: 5%;
+}
+
+.modal-inner-body label {
+	margin-bottom: 1rem;
+	padding-left: 0%;
+	padding-right: 0%;
+}
+
+.modal-text-editor {
+	box-sizing: border-box;
+}
+
+#myToast {
+	border-radius: 10px;
+	position: absolute;
+	right: 500px;
+	top: 100px;
+}
+
+.name { 
+	width: 20%;
+}
+
+.name-projects-dev {
+    font-family: "Titillium Web";
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    color: #333333;
+}
+
+.navbar {
+	background-color: #5893CE;
+}
+
+.navbar-brand {
+	margin-left: 2rem;
+}
+
+.navbar-dark .navbar-nav .nav-link{ 
+	color: rgba(255,255,255,1);
+}
+
+.navbar-nav {
+	margin-bottom: -8px;
+}
+
+.nav-item {
+	height: 77px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.nav-item::after {
+	background-color: white;
+	bottom: 0;
+	content: '';
+	height: 5px;
+	left: 50%;
+	margin-bottom: 0%;
+	position: absolute;
+	transition: all ease-in-out .2s;
+	width: 0px;
+}
+
+.nav-item:hover::after {
+	left: 0;
+	width: 100%;
+}
+
+.nav-link {
+	color: #FFFFFF;
+	font-size: 24px;
+	margin-top: 12px;
+}
+
+.nav-link:hover {
+	color: white;
+}
+
+.not-lead {
+	visibility: hidden;
+}
+
+.project-li {
+	border-bottom: 1px solid #e4e1e1;
+	padding-top: 1rem;
+}
+
+.project-li p {
+	color: #333333;
+	font-size: 1rem;
+}
+
+.project-modal-rounded-pill {
+	background: #5893CE;
+}
+
+.projects {
+	background-color: white;
+	border-radius: 4px;
+	box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+	margin-left: 3%;
+	margin-right: 3%;
+}
+
+.red {
+	border: 1px solid #F58295;
+	color: #F58295;
+}
+
+.report {
+	width: 50%;
+}
+
+.rounded-pill {
+	width: auto;
+}
+
+.send-report {
+	background-color: #5893CE;
+	color: white;
+}
+
+.status {
+	width: 20%;
+}
+
+#succes-message {
+	display: none;
+	color: tomato;
+}
+
+.team-lead-badge {
+	background: #A1DC83;
+}
+
+.title-dashboard {
+	color: #333333;
+	font-size: 32px;
+	font-style: normal;
+	font-weight: 600;
+	margin-left: 2%;
+	margin-right: 3%;
+	padding: 2rem;
+}
+
+ul {
+	list-style: none;
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+.user p {
+	color: #333333;
+	font-size: 1rem;
+}
+
+.user-li {
+	border-bottom: 2px solid #e4e1e1;
+    padding-top: 1.2rem;
+}
+
+.users {
+	background-color: white;
+	border-radius: 4px;
+	/* box-shadow: 0 3px 10px rgb(0 0 0 / 0.2); */
+	margin-left: 3%;
+	margin-right: 3%;
+}
+
+.view-edit-button {
+	border: none;
+	color: #333333;
+	font-size: 13px;
+}
+
+.warningEmptyField {
+	display: none;
+}
+
+.warningEmptyField p {
+	color: tomato;
+	margin-bottom: 0%;
+	margin-top: 0%;
+}
