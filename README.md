@@ -1,1 +1,2 @@
-# eod-email-report--frontend
+We developed a web application using the Nuxtjs framework, a tool that allows developers to send their status daily and generate a properly formatted email to project leaders. Additionally, the possibility of editing said mail before being sent in case you want to include some additional information.
+This app is not fully developed due to time issues, some features were missing, for example sending the report, a login where users can register and a real API.
